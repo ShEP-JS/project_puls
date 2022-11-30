@@ -1,0 +1,44 @@
+.clients {
+  &__items {
+    margin: 60px 0 50px 0;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    &:nth-child(3) {
+      margin-bottom: 0;
+    }
+    img {
+      margin-right: 61px;
+      width: 169px;
+      height: 169px;
+    }
+  }
+  &__img {
+    display: inline-block;
+  }
+  &__descr {
+    display: inline-block;
+    width: 70%;
+  }
+  &__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #0d0d0d;
+  }
+  &__maratons {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #646464;
+  }
+  &__opinion {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d0d0d;
+  }
+}

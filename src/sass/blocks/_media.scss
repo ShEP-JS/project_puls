@@ -1,0 +1,608 @@
+@media (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+  .header {
+    justify-content: space-around;
+    &__logo {
+      width: 150px;
+      img {
+        width: 100%;
+      }
+    }
+    &__official {
+      font-size: 11px;
+      span {
+        font-size: 16px;
+      }
+    }
+    &__phone {
+      font-size: 14px;
+    }
+  }
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+    &__header {
+      font-size: 30px;
+    }
+    &__subheader {
+      font-size: 20px;
+    }
+  }
+  .advantages {
+    &__items {
+      justify-content: space-around;
+    }
+    &__item {
+      width: 160px;
+    }
+    &__title {
+      font-size: 13px;
+    }
+    &__text {
+      font-size: 12px;
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+  .consultation {
+    min-height: 100%;
+    padding: 50px 0 70px 0;
+    &__descr {
+      font-size: 20px;
+      line-height: 18px;
+      text-align: left;
+      margin-left: 20px;
+    }
+    .title {
+      margin-top: 20px;
+      line-height: 26px;
+      &_left {
+        text-align: left;
+        font-size: 24px;
+
+        margin-left: 20px;
+      }
+    }
+    .feed-form {
+      width: 300px;
+      align-items: center;
+      margin-top: 30px;
+      input {
+        height: 45px;
+        width: 85%;
+      }
+    }
+    .button {
+      &_submit {
+        width: 85%;
+        height: 45px;
+        font-size: 12px;
+      }
+    }
+  }
+  .carousel {
+    padding: 81px 0;
+    &__inner {
+      width: 100%;
+      img {
+        max-width: 75%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .catalog {
+    &__tabs {
+      margin-top: 50px;
+    }
+    &__tab {
+      width: 180px;
+      height: 45px;
+    }
+    &__content {
+      margin-top: 40px;
+      justify-content: center;
+    }
+  }
+  .clients {
+    &__items {
+      margin: 30px 10px 50px 20px;
+    }
+    &__item {
+      img {
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+      }
+    }
+    &__descr {
+      width: 70%;
+    }
+    &__name {
+      font-size: 16px;
+    }
+    &__maratons {
+      font-size: 12px;
+    }
+    &__opinion {
+      font-size: 14px;
+    }
+  }
+  .footer {
+    &__info {
+      width: 350px;
+      height: 190px;
+    }
+    &__addr {
+      font-size: 18px;
+    }
+    &__phone {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+    &__social {
+      margin-top: 10px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .header {
+    justify-content: space-around;
+    &__logo {
+      width: 150px;
+      img {
+        width: 100%;
+      }
+    }
+    &__official {
+      font-size: 11px;
+      span {
+        font-size: 16px;
+      }
+    }
+    &__phone {
+      font-size: 14px;
+    }
+  }
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+    &__header {
+      font-size: 30px;
+    }
+    &__subheader {
+      font-size: 20px;
+    }
+  }
+  .advantages {
+    &__items {
+      justify-content: space-around;
+    }
+    &__item {
+      width: 160px;
+    }
+    &__title {
+      font-size: 13px;
+    }
+    &__text {
+      font-size: 12px;
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+  .consultation {
+    min-height: 100%;
+    padding: 50px 0 70px 0;
+    &__descr {
+      font-size: 20px;
+      line-height: 18px;
+      text-align: left;
+      margin-left: 20px;
+    }
+    .title {
+      margin-top: 20px;
+      line-height: 26px;
+      &_left {
+        text-align: left;
+        font-size: 24px;
+
+        margin-left: 20px;
+      }
+    }
+    .feed-form {
+      width: 300px;
+      align-items: center;
+      margin-top: 30px;
+      input {
+        height: 45px;
+        width: 85%;
+      }
+    }
+    .button {
+      &_submit {
+        width: 85%;
+        height: 45px;
+        font-size: 12px;
+      }
+    }
+  }
+  .carousel {
+    padding: 81px 0;
+    &__inner {
+      width: 100%;
+      img {
+        max-width: 75%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .catalog {
+    &__tabs {
+      margin-top: 50px;
+    }
+    &__tab {
+      width: 180px;
+      height: 45px;
+    }
+    &__content {
+      margin-top: 40px;
+      justify-content: center;
+    }
+  }
+  .clients {
+    img {
+      margin-right: 61px;
+      width: 169px;
+      height: 169px;
+    }
+  }
+  .footer {
+    &__info {
+      width: 350px;
+      height: 190px;
+    }
+    &__addr {
+      font-size: 18px;
+    }
+    &__phone {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+    &__social {
+      margin-top: 10px;
+    }
+  }
+  .modal {
+    padding: 20px 10px 20px 10px;
+    padding-left: 30px;
+    min-height: auto;
+    width: 320px;
+    &__close {
+      right: -26px;
+      line-height: 10px;
+    }
+    &__subtitle {
+      font-size: 16px;
+      text-align: left;
+    }
+    &__descr {
+      font-size: 12px;
+      text-align: left;
+    }
+    .feed-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 260px;
+      input {
+        margin-bottom: 8px;
+      }
+    }
+    .feed-form-mt25 {
+      margin-top: 13px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    &__logo {
+      width: 150px;
+    }
+    &__official {
+      margin-top: 15px;
+      font-size: 10px;
+      span {
+        font-size: 16px;
+      }
+    }
+    &__phone {
+      font-size: 14px;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+    &__contacts {
+      margin-top: 15px;
+      align-items: center;
+    }
+  }
+  .promo {
+    &__wrapper {
+      align-items: center;
+      margin-top: 50px;
+    }
+    &__header {
+      font-size: 20px;
+    }
+    &__subheader {
+      text-align: center;
+      font-size: 13px;
+    }
+    &__icons {
+      width: 100%;
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__icon {
+      margin-top: 20px;
+      width: 170px;
+      font-size: 14px;
+      img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+    }
+    &__link {
+      font-size: 12px;
+    }
+  }
+  .button {
+    &_main {
+      width: 200px;
+      height: 40px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 25px;
+      margin-top: 40px;
+    }
+  }
+  .advantages {
+    .title {
+      font-size: 20px;
+      margin-top: 45px;
+    }
+    &__items {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 60px;
+      margin-bottom: 25px;
+      align-items: center;
+    }
+    &__item {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    &__title {
+      font-size: 16px;
+      margin-top: 0;
+    }
+    &__text {
+      font-size: 12px;
+      margin: 10px 15px 0px 15px;
+
+      text-align: center;
+      span {
+        font-size: 13px;
+      }
+    }
+  }
+  .consultation {
+    min-height: 100%;
+    padding: 30px 0 50px 0;
+    &__descr {
+      font-size: 16px;
+      line-height: 16px;
+      text-align: center;
+      margin-left: 0;
+    }
+    .title {
+      font-size: 30px;
+      line-height: 30px;
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 0;
+      &_left {
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+      }
+    }
+    .feed-form {
+      width: 80%;
+      margin: 0 auto;
+      align-items: center;
+      margin-top: 30px;
+      input {
+        height: 45px;
+      }
+    }
+    .button {
+      &_submit {
+        width: 85%;
+        height: 45px;
+        font-size: 12px;
+      }
+    }
+  }
+  .carousel {
+    padding: 81px 0;
+    &__inner {
+      width: 100%;
+      img {
+        max-width: 75%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .catalog {
+    padding-bottom: 50px;
+    .title {
+      font-size: 22px;
+      margin-top: 0;
+    }
+    &__tabs {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__tab {
+      width: 190px;
+      height: 35px;
+      font-size: 15px;
+      line-height: 35px;
+      transform: skewX(-25deg);
+      margin-bottom: 7px;
+    }
+    &__content {
+      margin-top: 30px;
+      justify-content: center;
+    }
+    &-item {
+      min-height: 250px;
+      &__img {
+        max-width: 80%;
+        height: 150px;
+      }
+
+      hr {
+        margin-top: 0;
+      }
+
+      &__price {
+        font-size: 18px;
+      }
+      &__content {
+        transform: translateX(-102%);
+        &_active {
+          transform: translateX(0%);
+        }
+      }
+    }
+  }
+  .clients {
+    width: 100%;
+    height: 100%;
+    .title {
+      margin-top: 0;
+      font-size: 22px;
+    }
+    &__items {
+      margin: 20px 0 30px 0;
+    }
+    &__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 20px 0 20px;
+      margin-bottom: 40px;
+      text-align: center;
+      &:nth-child(3) {
+        margin-bottom: 0;
+      }
+      img {
+        margin-right: 0;
+        width: 100px;
+        height: 100px;
+      }
+    }
+    &__name {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+    &__maratons {
+      font-size: 10px;
+    }
+    &__opinion {
+      margin-top: 10px;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 20px;
+      color: #0d0d0d;
+    }
+  }
+  .footer {
+    width: 100%;
+    height: 380px;
+    iframe {
+      height: 380px;
+    }
+    &__info {
+      width: 100%;
+      height: 180px;
+    }
+    &__addr {
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    &__phone {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    &__social {
+      margin-top: 20px;
+    }
+    &__social-item {
+      width: 43px;
+      height: 43px;
+    }
+  }
+  .modal {
+    padding: 30px 10px 30px 20px;
+    min-height: auto;
+    width: 300px;
+    &__close {
+      position: absolute;
+      top: -36px;
+      right: 0;
+      font-size: 40px;
+      line-height: 21px;
+      color: $main-color;
+      cursor: pointer;
+    }
+    .feed-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 260px;
+      input {
+        margin-bottom: 8px;
+      }
+    }
+    .feed-form-mt25 {
+      margin-top: 13px;
+    }
+  }
+}
